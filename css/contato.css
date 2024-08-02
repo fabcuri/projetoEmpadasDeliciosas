@@ -1,39 +1,73 @@
-#inicio{
+#inicio {
     background-color: rgb(216, 170, 76);
     text-align: center;
     font-size: larger;
     color: rgb(230, 134, 37);
     height: 140px;
-    align-items:last baseline;
+    align-items: last baseline;
 }
 
-#titulo{
-  padding: 50px;
+#titulo {
+    padding: 50px;
 }
 
-#menu{
+#menu {
     background-color: rgb(237, 240, 241);
-    height: 50px;  
+    height: 50px;
 }
 
-#linha{
+#linha {
     color: rgb(192, 157, 44);
     font-size: large;
-    align-items:last baseline;
+    align-items: last baseline;
 }
-#subtitulo{
+
+#subtitulo {
     color: rgb(213, 161, 55);
     text-align: left;
 }
-#empada{
+
+#empada {
     text-align: center;
 }
-#card{
+
+#card {
     width: 70%;
     margin: 0 auto;
-  padding: 15px;
-    background-color:floralwhite;
+    padding: 15px;
+    background-color: floralwhite;
     border: 1px solid #ddd;
-   box-shadow: 0 4px 8px (0,0,0,1);
-    
+    box-shadow: 0 4px 8px (0, 0, 0, 1);
+
+}
+
+#texto {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(213, 161, 55);
+    color: #fff;
+    padding: 10px;
+    font-size: smaller;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#botao {
+    background-color: rgb(192, 157, 44);
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    color: #fff;
 }
